@@ -4,9 +4,9 @@ class Person
 
   attr_accessor :first_name, :last_name
 
-  def self.number_people
-    @@number_people
-  end
+  # def self.number_people
+  #   @@number_people
+  # end
 
   def initialize(first_name, last_name)
     @first_name = first_name
